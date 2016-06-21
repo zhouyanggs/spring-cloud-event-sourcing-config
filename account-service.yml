@@ -14,9 +14,9 @@ security:
 spring:
   profiles: development
   datasource:
-    url: jdbc:mysql://192.168.99.100:3306/dev
+    url: jdbc:mysql://10.255.8.51:3306/zhouyang_event_sourcing
     username: root
-    password: dbpass
+    password: tzj
     initialize: false
 security:
   oauth2:
